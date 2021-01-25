@@ -7,7 +7,8 @@ import { CustomerModule } from './customer/customer.module';
 @Module({
   imports: [
     // MongooseModule.forRoot('mongodb://mongodb:30000/fake-umbrella'),
-    MongooseModule.forRoot('mongodb://localhost:30000/fake-umbrella'),
+    // MongooseModule.forRoot('mongodb://localhost:30000/fake-umbrella'),
+    MongooseModule.forRoot('mongodb://10.0.75.1:30000/fake-umbrella'),
     // MongooseModule.forRoot('mongodb://localhost:27017/fake-umbrella'),
     CustomerModule
   ],
