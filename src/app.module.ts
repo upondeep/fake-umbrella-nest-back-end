@@ -8,7 +8,8 @@ import { CustomerModule } from './customer/customer.module';
   imports: [
     // MongooseModule.forRoot('mongodb://mongodb:30000/fake-umbrella'),
     // MongooseModule.forRoot('mongodb://localhost:30000/fake-umbrella'),
-    MongooseModule.forRoot('mongodb://docker.for.win.localhost:27017/fake-umbrella'),
+    // MongooseModule.forRoot('mongodb://docker.for.win.localhost:27017/fake-umbrella'),
+    MongooseModule.forRoot('mongodb:/10.0.0.219:27017/fake-umbrella'),
     // MongooseModule.forRoot('mongodb://localhost:27017/fake-umbrella'),
     CustomerModule
   ],
